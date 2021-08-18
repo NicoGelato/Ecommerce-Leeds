@@ -18,13 +18,12 @@ body {
 
 /*Barra de Scroll*/
 body::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(
+  background: linear-gradient(
     0deg,
-
     #101415,
     #f0953320,
     #f0953350,
@@ -41,15 +40,15 @@ body::-webkit-scrollbar-thumb {
     #405ce680,
     #405de650,
     #405de620,
-    #101415,
+    #101415
   );
-    
 }
 
 /*Fondo de las cards con Efecto Blur*/
 .blur {
-    -webkit-backdrop-filter:blur(15px); backdrop-filter: blur(15px); 
-    background-color: rgba(243, 243, 243, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(243, 243, 243, 0.5);
 }
 
 /*Text-White*/
@@ -58,25 +57,25 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*Hover para los botones*/
-.hover-white:hover{
-    background: white;
-    border: transparent;
-    box-shadow: 10px black;
-    color: black;
+.hover-white:hover {
+  background: white;
+  border: transparent;
+  box-shadow: 10px black;
+  color: black;
 }
 
-.hover-green:hover{
-    background: #25d366;
-    border: transparent;
-    box-shadow: 10px black;
-    color: white;
+.hover-green:hover {
+  background: #25d366;
+  border: transparent;
+  box-shadow: 10px black;
+  color: white;
 }
 
-.hover-blue:hover{
-    background: rgb(0, 175, 240);
-    border: transparent;
-    box-shadow: 10px black;
-    color: white;
+.hover-blue:hover {
+  background: rgb(0, 175, 240);
+  border: transparent;
+  box-shadow: 10px black;
+  color: white;
 }
 
 /*Estilos del Wasa flotante*/
@@ -202,7 +201,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*Estilos del banner instagram*/
+
 .instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #e1306c,
+    #c13584,
+    #833ab4,
+    #5851db,
+    #405de6
+  );
+}
+
+.instagram-degraded {
   background: linear-gradient(
     45deg,
     #101415,
@@ -221,7 +235,7 @@ body::-webkit-scrollbar-thumb {
     #405ce680,
     #405de650,
     #405de620,
-    #101415,
+    #101415
   );
 }
 
@@ -231,5 +245,5 @@ body::-webkit-scrollbar-thumb {
   border-color: #86b7fe;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.25);
-          box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.25);
 }

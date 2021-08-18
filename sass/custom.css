@@ -11684,6 +11684,10 @@ body::-webkit-scrollbar-thumb {
 
 /*Estilos del banner instagram*/
 .instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+}
+
+.instagram-degraded {
   background: linear-gradient(45deg, #101415, #f0953320, #f0953350, #f0953380, #f0943390, #e6683c, #e63c3c, #dc2743, #e1306c, #c13584, #833ab4, #5851db, #405de690, #405ce680, #405de650, #405de620, #101415);
 }
 
